@@ -1,0 +1,30 @@
+/*
+Web Programming Fall 2020
+Author: Wyland Crews
+Date: 11/4/2020
+Validated: Yes
+*/
+
+h1 {
+	font-family: "Copperplate Gothic";
+	text-align: center;
+	font-size: large;
+}
+
+html, body {
+	width: 100%;
+	background-color:#00008B; /* Dark Blue */
+	color: white;
+}
+
+table, th, td {
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+	height: 500;
+	border: 5px solid white;
+}
+
+p {
+	text-align: center;
+}
