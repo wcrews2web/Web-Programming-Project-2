@@ -20,6 +20,7 @@
 	}
 
 	if (strcmp($password, $password_infile)){
+		$_SESSION["loggedin"] = true;
 		$_SESSION["username"] = $username;
 		$_SESSION["password"] = $password;
 		header('Location: home.php');

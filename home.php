@@ -1,10 +1,16 @@
 <?php
 	session_start();
 
-	// if(!isset($_SESSION["username"]["password"])){
+	//this php script should be included in any page where where must be logged in to access
+	//check whether user is logged in or not
+	if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true){
 
-
-	// }
+	}
+	// if not logged in, refirect to login page.
+	else{
+		header('Location: login.php');
+		exit();
+	}
 
 ?>
 
