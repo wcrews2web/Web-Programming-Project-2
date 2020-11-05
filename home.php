@@ -17,5 +17,8 @@
 
 	<h1>WELCOME, <?php print $_SESSION["username"] ?></h1>
 
+
+	<a href="logout.php">Logout</a>
+
 </body>
 </html>
