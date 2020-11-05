@@ -18,9 +18,13 @@
 <html>
 <head>
 	<title>Who Wants to be a Millionaire?</title>
+	<link href="question.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 
+	<h1>WHO WANTS TO BE A MILLIONAIRE?</h1>
+	<img src="logo.png"><br/>
+<div>
 	<h1>WELCOME, <?php print $_SESSION["username"] ?></h1>
 
 
@@ -29,6 +33,5 @@
 
 
 	<a href="logout.php">Logout</a>
-
+</div>
 </body>
-</html>
