@@ -17,11 +17,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Who Wants to be a Millionaire?</title>
 </head>
 <body>
 
 	<h1>WELCOME, <?php print $_SESSION["username"] ?></h1>
+
+
+	<p>questions</p>
+	<p>leaderboard</p>
 
 
 	<a href="logout.php">Logout</a>

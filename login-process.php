@@ -16,10 +16,12 @@
 		if ($userArray[0] == $username){
 			$user_infile = $userArray[0];
 			$password_infile = $userArray[1];
+			break;
 		}
+		
 	}
 
-	if (strcmp($password, $password_infile)){
+	if ($password == $password_infile){
 		$_SESSION["loggedin"] = true;
 		$_SESSION["username"] = $username;
 		$_SESSION["password"] = $password;
@@ -31,7 +33,4 @@
 		exit();
 	}
 	
-	  
-	
-
 ?>

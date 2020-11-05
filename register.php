@@ -9,26 +9,30 @@
 
 	<form action="register-process.php" method="post">
 		
-		<label for="username">username:</label>
-		<input type="text" name="username" required="">
+		<table>
+			<tr>
+				<td>Username:</td>
+				<td><input type="text" name="username" required=""></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="password1" required=""></td>
+			</tr>
+			<tr>
+				<td>Confirm Password:</td>
+				<td><input type="password" name="password2" required=""></td>
+			</tr>
+		</table>
 
-		<br><br>
-
-		<label for="password1">Password:</label>
-		<input type="password" name="password1" required="">
-
-		<br><br>
-
-		<label for="password2">Confirm Password:</label>
-		<input type="password" name="password2" required="">
-
-		<br><br>
-
+		<br>
+			
 		<button>Submit</button>
 
 		<br><br>
 
 		<a href="login.php">Already Registered? Login here</a>
+
+		
 
 	</form>
 
