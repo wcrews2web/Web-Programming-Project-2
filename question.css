@@ -11,6 +11,13 @@ h1 {
 	font-size: 32pt;
 }
 
+h2 {
+	font-family: "Copperplate Gothic";
+	text-align: center;
+	font-size: 32pt;
+	color: red;
+}
+
 html, body {
 	width: 100%;
 	background-image: url("background.jpg");

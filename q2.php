@@ -5,13 +5,9 @@
 <!--Validated: Yes-->
 
 <?php
-	$answer = $_POST['answer'];
-	$total = 1; //Previous question is worth $1. Next is worth $10, $100, so on. This amount will be needed for the leaderboard.
-	$check = strcmp($answer,"A"); //Hard code answer from previous question here
-	if($check != 0) { //$check will equal 0 if the answer is correct
-		header("Location: https://codd.cs.gsu.edu/~wcrews2/project2/loser.php"); //Go to loser.php if the answer is wrong. Game over. Else, Continue.
-		exit;
-	}
+	include 'check.php';
+	$score = 1;
+	$test = "A";
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

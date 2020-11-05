@@ -9,14 +9,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<title>Game Over</title>
+	<title>WINNER</title>
 	<link href="question.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
 <h1>WHO WANTS TO BE A MILLIONAIRE?</h1>
 	<img src="logo.png"><br/>
-<h2>You Lost :(</h2>
+<h2 style="color:green">YOU WON $1,000,000!</h2>
+<h2 style="color:green">YOU'RE A MILLIONAIRE!</h2>
 <p>Link to Leaderboard here</p>
 </body>
 
