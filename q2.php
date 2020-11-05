@@ -7,7 +7,6 @@
 <?php
 	include 'check.php';
 	$score = 1;
-	$test = "A";
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -37,10 +36,10 @@
 	<form action="q3.php" method="post">
 		<p>Choose your answer:
 			<select name="answer">
-				<option value="A">A</option>
-				<option value="B">B</option>
-				<option value="C">C</option>
-				<option value="D">D</option>
+				<option value="false">A</option>
+				<option value="false">B</option>
+				<option value="true">C</option>
+				<option value="false">D</option>
 			</select>
 		</p>
 		

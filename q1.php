@@ -30,10 +30,10 @@
 	<form action="q2.php" method="post">
 		<p>Choose your answer:
 			<select name="answer">
-				<option value="A">A</option>
-				<option value="B">B</option>
-				<option value="C">C</option>
-				<option value="D">D</option>
+				<option value="true">A</option>
+				<option value="false">B</option>
+				<option value="false">C</option>
+				<option value="false">D</option>
 			</select>
 		</p>
 		
