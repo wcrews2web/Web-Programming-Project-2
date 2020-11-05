@@ -26,11 +26,14 @@
 	<img src="logo.png"><br/>
 <div>
 	<h1>WELCOME, <?php print $_SESSION["username"] ?></h1>
+	
+	<p>RULES: Answer incorrectly, and the game is over.<br/>
+	Answer correctly, and move on to the next question.<br/>
+	10 correct answers makes you a millionaire!</p>
 
 
-	<p>questions</p>
-	<p>leaderboard</p>
-
+	<a href="q1.php">Questions</a>
+	<a href="leaderboard.php">Go to the Leaderboard</a>
 
 	<a href="logout.php">Logout</a>
 </div>
