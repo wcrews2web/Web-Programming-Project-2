@@ -6,13 +6,13 @@
 
 <?php
 	include 'check.php';
-	$score = 10;
+	$score = 250000;
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<title>Question 3</title>
+	<title>Question 9</title>
 	<link href="question.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -21,18 +21,18 @@
 	<img src="logo.png"><br/>
 	<table>
 		<tr style="height:100px">
-			<td colspan=2 >Correct!<br/>For $100.00: <br/>According to the old saying, "love of" WHAT "is the root of all evil"?</td>
+			<td colspan=2 >Correct!<br/>For $500,000.00: <br/>Which country consumes the most chocolate per capita?</td>
 		</tr>
 		<tr>
-			<td>A. Ukraine</td>
-			<td>B. Money</td> <!--Correct-->
+			<td>A. US</td> 
+			<td>B. Switzerland</td> <!--Correct-->
 		</tr>
 		<tr>
-			<td>C. Peace</td> 
-			<td>D. Reality TV</td>
+			<td>C. Sweden</td> 
+			<td>D. Paris</td> 
 		</tr>
 	</table>
-	<form action="q4.php" method="post">
+	<form action="q10.php" method="post">
 		<p>Choose your answer:
 			<select name="answer">
 				<option value="false">A</option>

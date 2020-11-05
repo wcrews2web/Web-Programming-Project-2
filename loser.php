@@ -15,9 +15,11 @@
 
 <body>
 <h1>WHO WANTS TO BE A MILLIONAIRE?</h1>
-	<img src="logo.png"><br/>
+<img src="logo.png"><br/>
+<div>
 <h2>You Lost :(</h2>
-<p>Link to Leaderboard here</p>
+<a href="leaderboard.php">Go to the Leaderboard</a>
+</div>
 </body>
 
 </html>

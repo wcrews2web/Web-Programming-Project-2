@@ -6,13 +6,13 @@
 
 <?php
 	include 'check.php';
-	$score = 10;
+	$score = 500000;
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<title>Question 3</title>
+	<title>Question 10</title>
 	<link href="question.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -21,22 +21,22 @@
 	<img src="logo.png"><br/>
 	<table>
 		<tr style="height:100px">
-			<td colspan=2 >Correct!<br/>For $100.00: <br/>According to the old saying, "love of" WHAT "is the root of all evil"?</td>
+			<td colspan=2 >Correct!<br/>The Literal $1,000,000 Question: <br/>How old was Alan Turing when he died?</td>
 		</tr>
 		<tr>
-			<td>A. Ukraine</td>
-			<td>B. Money</td> <!--Correct-->
+			<td>A. 41</td> <!--Correct-->
+			<td>B. 52</td> 
 		</tr>
 		<tr>
-			<td>C. Peace</td> 
-			<td>D. Reality TV</td>
+			<td>C. 61</td> 
+			<td>D. 34</td> 
 		</tr>
 	</table>
-	<form action="q4.php" method="post">
+	<form action="winner.php" method="post">
 		<p>Choose your answer:
 			<select name="answer">
-				<option value="false">A</option>
-				<option value="true">B</option>
+				<option value="true">A</option>
+				<option value="false">B</option>
 				<option value="false">C</option>
 				<option value="false">D</option>
 			</select>

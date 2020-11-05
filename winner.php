@@ -4,7 +4,11 @@
 <!--Date: 10/22/2020-->
 <!--Validated: Yes-->
 
-<!--Very rough idea of loser.php just for flow purposes-->
+
+<?php
+	include 'check.php';
+	$score = 1000000;
+?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -15,10 +19,12 @@
 
 <body>
 <h1>WHO WANTS TO BE A MILLIONAIRE?</h1>
-	<img src="logo.png"><br/>
+<img src="logo.png"><br/>
+<div>
 <h2 style="color:green">YOU WON $1,000,000!</h2>
 <h2 style="color:green">YOU'RE A MILLIONAIRE!</h2>
-<p>Link to Leaderboard here</p>
+<a href="leaderboard.php">Go to the Leaderboard</a>
+</div>
 </body>
 
 </html>

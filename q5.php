@@ -6,13 +6,13 @@
 
 <?php
 	include 'check.php';
-	$score = 10;
+	$score = 1000;
 ?>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<title>Question 3</title>
+	<title>Question 5</title>
 	<link href="question.css" type="text/css" rel="stylesheet" />
 </head>
 
@@ -21,24 +21,24 @@
 	<img src="logo.png"><br/>
 	<table>
 		<tr style="height:100px">
-			<td colspan=2 >Correct!<br/>For $100.00: <br/>According to the old saying, "love of" WHAT "is the root of all evil"?</td>
+			<td colspan=2 >Correct!<br/>For $10,000.00: <br/>Which singer’s real name is Stefani Joanne Angelina Germanotta?</td>
 		</tr>
 		<tr>
-			<td>A. Ukraine</td>
-			<td>B. Money</td> <!--Correct-->
+			<td>A. Gwen Stefani</td>
+			<td>B. Fergie</td> 
 		</tr>
 		<tr>
-			<td>C. Peace</td> 
-			<td>D. Reality TV</td>
+			<td>C. Estelle</td> 
+			<td>D. Lady Gaga</td> <!--Correct-->
 		</tr>
 	</table>
-	<form action="q4.php" method="post">
+	<form action="q6.php" method="post">
 		<p>Choose your answer:
 			<select name="answer">
 				<option value="false">A</option>
-				<option value="true">B</option>
+				<option value="false">B</option>
 				<option value="false">C</option>
-				<option value="false">D</option>
+				<option value="true">D</option>
 			</select>
 		</p>
 		
