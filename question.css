@@ -49,3 +49,11 @@ div {
 	margin: auto;
 	text-align: center;
 }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: green;
+}
