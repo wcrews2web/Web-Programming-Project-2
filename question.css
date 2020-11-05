@@ -8,23 +8,37 @@ Validated: Yes
 h1 {
 	font-family: "Copperplate Gothic";
 	text-align: center;
-	font-size: large;
+	font-size: 32pt;
 }
 
 html, body {
 	width: 100%;
-	background-color:#00008B; /* Dark Blue */
+	background-image: url("background.jpg");
+	background-repeat: repeat;
 	color: white;
 }
 
 table, th, td {
 	text-align: center;
-	margin: 0 auto;
-	width: 60%;
-	height: 500;
+	margin: auto;
+	width: 800px;
 	border: 5px solid white;
+	background-color: black;
 }
 
 p {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+	height: auto;
+}
+
+div {
+	margin: auto;
 	text-align: center;
 }
