@@ -1,3 +1,8 @@
+<?php 
+	session_start();
+	$error = $_SESSION["error"];
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +11,7 @@
 <body>
 	<h1>ERROR</h1>
 
-	<p>Invalid credentials. Please try again.</p>
+	<h3><?php print $error ?></h3>
 
 </body>
 </html>

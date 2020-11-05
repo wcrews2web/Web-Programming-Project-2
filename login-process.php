@@ -29,6 +29,7 @@
 		exit();
 	}
 	else{
+		$_SESSION["error"] = "Username/Password is incorrect";
 		header('Location: error.php');	
 		exit();
 	}
