@@ -1,0 +1,53 @@
+#container {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    border-spacing: 0;
+}
+
+th,
+td {
+    margin: 0;
+    padding: .5em 1.5em;
+    position: relative;
+    text-align: center;
+    font-size: 200%;
+    border-width: 1px 0;
+    border-style: solid;
+}
+
+.row:nth-child(2) {
+    background: gold;
+    color: black;
+}
+
+.row:nth-child(3) {
+    background: #c0c0c0;
+    color: black;
+}
+
+.row:nth-child(4) {
+    background: #cd7f32;
+    color: black;
+}
+
+h1 {
+    font-family: "Copperplate Gothic";
+    text-align: center;
+    font-size: 32pt;
+}
+
+body {
+    width: 100%;
+    background-image: url("background.jpg");
+    background-repeat: repeat;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
