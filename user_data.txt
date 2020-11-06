@@ -3,3 +3,5 @@ efaz,efaz,500
 admin,pass,65
 jon,a1,50000
 boss,abc123,2
+ethan,ethan,0
+marc,marc,0

@@ -29,7 +29,7 @@
 	</table>
 	<form action="q2.php" method="post">
 		<p>Choose your answer:
-			<select name="answer">
+			<select name="answer" size="1">
 				<option value="true">A</option>
 				<option value="false">B</option>
 				<option value="false">C</option>
@@ -38,7 +38,7 @@
 		</p>
 		
 		<div>
-			<input type="submit" value="Final Answer.">
+			<input type="submit" value="Final Answer." class = "submit">
 		</div>
 	</form>
 </body>
