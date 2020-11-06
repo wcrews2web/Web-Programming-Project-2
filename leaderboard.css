@@ -37,6 +37,7 @@ h1 {
 }
 
 body {
+    overflow: hidden;
     width: 100%;
     background-image: url("background.jpg");
     background-repeat: repeat;
@@ -67,7 +68,8 @@ button:hover {
     color: black;
     transition: 0.5s;
 }
-div {
+
+.utButtons {
     margin: auto;
     text-align: center;
 }
