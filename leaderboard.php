@@ -1,4 +1,4 @@
-<?php
+ <?php
     $users = file("user_data.txt");
     $userLine = array();
     $usernAge = array();
@@ -26,7 +26,8 @@
 </head>
 <body>
 
-	<h1>Who Wants To Be A Millionaire ?</h1>
+	<h1>WHO WANTS TO BE A MILLIONAIRE?</h1>
+	<img src="logo.png"><br/>
     <h1>Leaderboard</h1>
 
     <div id="container">
