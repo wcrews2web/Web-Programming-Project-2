@@ -68,3 +68,8 @@ button:hover {
     color: black;
     transition: 0.5s;
 }
+
+.utButtons {
+    margin: auto;
+    text-align: center;
+}
