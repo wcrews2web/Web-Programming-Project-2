@@ -1,7 +1,7 @@
  <?php
     $users = file("user_data.txt");
     $userLine = array();
-    $usernAge = array();
+    $usernScore = array();
     $userName;
     $userScore;
     $leaderboardCount = 0;
@@ -12,10 +12,10 @@
 
         foreach($userLine as $user){
             //Initializing and Associative array
-            $usernAge[$user[0]] = $user[2];
+            $usernScore[$user[0]] = $user[2];
         }
     }
-    asort($usernAge);
+    arsort($usernScore, SORT_NATURAL);
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +38,7 @@
     	<th>Scores</th>
     </tr>
     <?php
-    foreach($usernAge as $key => $value){
+    foreach($usernScore as $key => $value){
         $leaderboardCount++;
         echo"
         <tr class=row>

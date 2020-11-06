@@ -16,7 +16,7 @@
 	$data = $username . "," . $password1 . "," . $score;
 	fwrite($user_data, $data.PHP_EOL);
 
-	header('Location: login.php');
+	header('Location: home.php');
 	exit();
 
 ?>
