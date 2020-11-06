@@ -32,9 +32,10 @@
 	10 correct answers makes you a millionaire!</p>
 
 
-	<a href="q1.php">Questions</a>
-	<a href="leaderboard.php">Go to the Leaderboard</a>
-
-	<a href="logout.php">Logout</a>
+    <div>
+        <button onclick="document.location='q1.php'">Questions</button>
+		<button onclick="document.location='leaderboard.php'"> See Leaderboard</button>
+		<button onclick="document.location='logout.php'">Log Out</button>
+    </div>
 </div>
 </body>
