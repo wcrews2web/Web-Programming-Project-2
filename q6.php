@@ -43,7 +43,7 @@
 		</p>
 		
 		<div>
-			<input type="submit" value="Final Answer.">
+			<input type="submit" value="Final Answer." class = "submit">
 		</div>
 	</form>
 </body>

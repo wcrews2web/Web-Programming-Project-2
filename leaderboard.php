@@ -25,7 +25,6 @@
     <link href="leaderboard.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-
 	<h1>WHO WANTS TO BE A MILLIONAIRE?</h1>
 	<img src="logo.png"><br/>
     <h1>Leaderboard</h1>
@@ -54,5 +53,10 @@
     ?>
     </tbody>
     </table>
+    
+    <div class="utButtons">
+        <button onclick="document.location='home.php'">Try Again</button>
+        <button onclick="document.location='logout.php'">Log Out</button>
+    </div>
 </body>
 </html>
