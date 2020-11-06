@@ -2,7 +2,6 @@
     width: 600px;
     height: auto;
     margin: auto;
-    border-spacing: 0;
 }
 
 th,
@@ -50,4 +49,25 @@ img {
     margin-right: auto;
     max-width: 50%;
     height: auto;
+}
+
+button {
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd700;
+    color: black;
+    transition: 0.5s;
+}
+div {
+    margin: auto;
+    text-align: center;
 }
