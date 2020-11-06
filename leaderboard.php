@@ -1,18 +1,21 @@
 <?php
-
     $users = file("user_data.txt");
-    //$user = [];
+    $userLine = array();
+    $usernAge = array();
     $userName;
     $userScore;
+    $leaderboardCount = 0;
     $lengthOfLeaderboard = 10;
 
-     foreach($users as $line){
-        $user = explode(",", $line);
-        
-     }
-     print_r($user);
-    
+    foreach($users as $line){
+        $userLine[] = explode(",", $line);
 
+        foreach($userLine as $user){
+            //Initializing and Associative array
+            $usernAge[$user[0]] = $user[2];
+        }
+    }
+    asort($usernAge);
 ?>
 
 <!DOCTYPE html>
@@ -27,27 +30,18 @@
     <h1>Leaderboard</h1>
 
     <div id="container">
-        <div class="row">
-            <div class="name">Player1</div><div class="score">430</div>
-        </div>
-    
-        <div class="row">
-            <div class="name">Player2</div><div class="score">580</div>
-        </div>
-    
-        <div class="row">
-            <div class="name">Player3</div><div class="score">310</div>
-        </div>
-    
-        <div class="row">
-            <div class="name">Player4</div><div class="score">640</div>
-        </div>
-    
-        <div class="row">
-            <div class="name">Player5</div><div class="score">495</div>
-        </div>
+    <?php
+    foreach($usernAge as $key => $value){
+        $leaderboardCount++;
+        echo "<div class=row>
+            <div class=name>$key</div><div class=score>$value</div>
+        </div>";
+        //Print only 10 top user
+        if($leaderboardCount == $lengthOfLeaderboard){
+            break;
+        }
+    }
+    ?>
     </div>
-
-
 </body>
 </html>
