@@ -5,7 +5,7 @@
     $userName;
     $userScore;
     $leaderboardCount = 0;
-    $lengthOfLeaderboard = 10;
+    $lengthOfLeaderboard = 5;
 
     foreach($users as $line){
         $userLine[] = explode(",", $line);
@@ -30,19 +30,29 @@
 	<img src="logo.png"><br/>
     <h1>Leaderboard</h1>
 
-    <div id="container">
+    <table id="container">
+    <tbody>
+    <tr class="head">
+        <th>Rank</th>
+    	<th>Participants</th>
+    	<th>Scores</th>
+    </tr>
     <?php
     foreach($usernAge as $key => $value){
         $leaderboardCount++;
-        echo "<div class=row>
-            <div class=name>$key</div><div class=score>$value</div>
-        </div>";
-        //Print only 10 top user
+        echo"
+        <tr class=row>
+            <td class=name>$leaderboardCount</td>
+            <td class=rank>$key</td>
+            <td class=score>$value</td>
+        </tr>";
+        //Print only 5 top user
         if($leaderboardCount == $lengthOfLeaderboard){
             break;
         }
     }
     ?>
-    </div>
+    </tbody>
+    </table>
 </body>
 </html>
