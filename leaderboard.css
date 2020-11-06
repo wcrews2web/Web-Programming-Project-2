@@ -37,7 +37,6 @@ h1 {
 }
 
 body {
-    overflow: hidden;
     width: 100%;
     background-image: url("background.jpg");
     background-repeat: repeat;
