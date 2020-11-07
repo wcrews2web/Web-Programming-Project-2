@@ -1,7 +1,5 @@
-new,123,2000
-efaz,efaz,500
+Chipzz,123,20
+efaz,efaz,50
 admin,pass,65
-jon,a1,50000
-boss,abc123,2
 ethan,ethan,0
 marc,marc,0
