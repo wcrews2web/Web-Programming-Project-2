@@ -1,4 +1,5 @@
 <?php
+	session_save_path("session");
 	session_start();
 
 	//this php script should be included in any page where where must be logged in to access
